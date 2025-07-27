@@ -9,6 +9,13 @@
     <lastBuildDate>Sun, 27 Jul 2025 10:43:28 +0300</lastBuildDate>
     <atom:link href="https://fb-i.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Projects</title>
+      <link>https://fb-i.github.io/projects/</link>
+      <pubDate>Sun, 27 Jul 2025 10:43:28 +0300</pubDate>
+      <guid>https://fb-i.github.io/projects/</guid>
+      <description>&lt;p&gt;Here are some projects I have worked on:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;PINNslope&lt;/strong&gt; — Description about project PINNslope.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Project B&lt;/strong&gt; — Description about project B.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Project C&lt;/strong&gt; — Description about project C.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
       <title>Resume</title>
       <link>https://fb-i.github.io/resume/</link>
       <pubDate>Sun, 27 Jul 2025 10:43:28 +0300</pubDate>
