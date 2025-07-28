@@ -37,12 +37,14 @@
   
   
   
+    
+  
   
   <link
     type="text/css"
     rel="stylesheet"
-    href="https://fb-i.github.io/css/main.bundle.min.0fc2ef930d53c70c53effb01f12118005a26719d9223a1599730c1d26ee3f132.css"
-    integrity="sha256-D8Lvkw1TxwxT7/sB8SEYAFomcZ2SI6FZlzDB0m7j8TI="
+    href="https://fb-i.github.io/css/main.bundle.min.44c0f1a726cf2da1941c3227213c23afc327c6b09e650d2dd06b48851a7803c3.css"
+    integrity="sha256-RMDxpybPLaGUHDInITwjr8MnxrCeZQ0t0GtIhRp4A8M="
   />
   
   
@@ -232,33 +234,10 @@
     overflow: hidden;
   }
 
-  .split-page {
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    z-index: -2;
-  }
-
-  .half {
-    width: 50vw;
-    height: 100vh;
-  }
-
-  .left {
-    background-color: white;
-  }
-
-  .right {
-    background-color: var(--color-primary-bg);
-  }
-
   .centered-image {
     position: fixed;
     top: 35%;
-    left: 50%;
+    left: 15%;
     transform: translate(-50%, -65%);
     width: 200px;
     height: 200px;
@@ -275,7 +254,7 @@
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 20px;
+    gap: 32px;
     z-index: 1;
     mix-blend-mode: difference;
   }
@@ -286,8 +265,8 @@
   }
 
   .social-links svg {
-    width: 26px;
-    height: 26px;
+    width: 32px;
+    height: 32px;
     transition: transform 0.2s;
   }
 
@@ -312,42 +291,14 @@
     color: black !important;
   }
 
-  .location-line {
-    position: fixed;
-    top: 70%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 1rem;
-    font-weight: 600;
-    z-index: 2;
-    white-space: nowrap;
-    mix-blend-mode: difference;  
-  }
 
-   
   .pin-icon {
     fill: red;
     flex-shrink: 0;
   }
-
-   
-  .location-text.left-text,
-  .location-text.right-text {
-     
-  }
 </style>
 
 
-<div class="split-page">
-  <div class="half left"></div>
-  <div class="half right"></div>
-</div>
-
-
-<img class="centered-image" src="https://fb-i.github.io/images/profile.jpeg" alt="Francesco">
 
 
 <div class="social-links">
@@ -362,28 +313,25 @@
   </a>
 </div>
 
-
-<div class="centered-caption">
-  Machine Learning & Geophysics
+<div class="hero-container">
+  <img class="profile-image" src="https://fb-i.github.io/images/profile.jpeg" alt="Francesco Brandolin" />
+  <div class="hero-text">
+    <div class="hero-name">Francesco Brandolin</div>
+    <div class="hero-title">Machine Learning & Geophysics</div>
+    <div class="hero-caption">
+      PhD candidate based in 
+      <span class="location-inline">
+        <svg class="pin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18">
+          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+        </svg>
+        Saudi Arabia, KAUST
+      </span>
+    </div>    
+  </div>
 </div>
 
 
-<div class="location-line">
-  <span class="location-text left-text">Saudi </span><span class="location-text right-text">Arabia</span>
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    class="pin-icon"
-    viewBox="0 0 24 24"
-    fill="red"
-    width="20"
-    height="20"
-    aria-hidden="true"
-  >
-    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/>
-  </svg>
 
-  
-</div>
 
       </main>
       
